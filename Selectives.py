@@ -30,7 +30,7 @@ st.markdown("""
 
 # --- UI HEADER ---
 st.title("🌹 Rose Payment Summary Tool")
-st.markdown("### Process unique client payments instantly.")
+st.markdown("### Believe you can and you’re halfway there.")
 
 # --- SIDEBAR ---
 st.sidebar.header("🌹 Upload Data")
@@ -130,3 +130,4 @@ if monitoring_file and selectives_file:
         st.error(f"Something went wrong, Rose! Error: {e}")
 else:
     st.info("Please upload both Excel files to generate your report! 🌹")
+
